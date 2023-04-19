@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 import requests
-
+from waitress import serve
 import smtplib
 
 URL = "https://api.npoint.io/366bb11dc41737923daf"
@@ -59,5 +59,17 @@ def send_email(name, email, phone, message):
         connection.login(OWN_EMAIL, OWN_PASSWORD)
         connection.sendmail (from_addr=OWN_EMAIL,
                              to_addrs=OWN_EMAIl, msg=email_message)
+mode="dev"
+
 if __name__ =="__main__":
-    app.run(debug=True)
+    if mode == "dev":
+        app.run(host="0.0.0.0", port=50100, debug=True)
+
+    else:
+        serve(app, host="0.0.0.0", port=50100, threads=1 )
+
+
+
+
+
+
