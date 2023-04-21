@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92b8f1e3-a9a2-4707-8c62-5bb0e85983d1" name="Changes" comment="initial add commit">
+    <list default="true" id="92b8f1e3-a9a2-4707-8c62-5bb0e85983d1" name="Changes" comment="initial add file commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py.txt" beforeDir="false" afterPath="$PROJECT_DIR$/main.py.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="main.py.md" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject29" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Reta\PycharmProjects\pythonProject6\pythonProject\pythonProject\pythonProject\pythonProject8\pythonProject29\main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Reta\PycharmProjects\pythonProject6\pythonProject\pythonProject\pythonProject\pythonProject8\pythonProject29\main.py.md" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681941982152</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initial add file commit">
+      <created>1682108632118</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682108632118</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +150,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial add commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial add commit" />
+    <MESSAGE value="initial add file commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial add file commit" />
   </component>
 </project>
